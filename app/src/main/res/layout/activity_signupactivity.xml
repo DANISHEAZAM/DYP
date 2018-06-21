@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="danish.azam.dyp.signupactivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/layoutsignup"
+
+        android:animateLayoutChanges="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/emailsignup"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:hint="   E_MAIL"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@drawable/bgwidget"
+                android:layout_marginTop="10sp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/passwordsignup"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:hint="   PASSWORD"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@drawable/bgwidget"
+                android:layout_marginTop="10sp"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:onClick="registeruser"
+                android:textColor="@color/white"
+                android:background="@drawable/buttunbg"
+                android:layout_marginTop="20sp"
+               android:text="Sign up"
+                 />
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:id="@+id/progressbar"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:defaultFocusHighlightEnabled="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+         />
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Developer :  AZAM"
+     android:textColor="@color/white"
+        android:textSize="25sp" />
+</RelativeLayout>

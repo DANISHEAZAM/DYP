@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="danish.azam.dyp.superfinalactivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Confirm Admission"
+    android:gravity="center"
+    android:layout_marginBottom="15sp"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            android:text="College Name" />
+
+        <EditText
+            android:id="@+id/collegename"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textSize="17sp"
+
+            android:text="Branch." />
+
+        <EditText
+            android:id="@+id/branchfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/hhh"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textSize="17sp"
+
+            android:text="Sign Name." />
+
+        <EditText
+            android:id="@+id/signname"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttunbg"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:textColor="@color/white"
+        android:onClick="pushdatatodatabase"
+        android:layout_marginTop="63dp"
+        android:text="Submit" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="600sp"
+        android:layout_below="@+id/Submit"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/gate" />
+
+
+</RelativeLayout>

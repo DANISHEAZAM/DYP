@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "835583197368",
+    "firebase_url": "https://dypcoe-extc.firebaseio.com",
+    "project_id": "dypcoe-extc",
+    "storage_bucket": "dypcoe-extc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835583197368:android:b61bdcca8e20617f",
+        "android_client_info": {
+          "package_name": "danish.azam.dyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835583197368-kuabr4qd9qrs1gkaarrfvcu43s1qke2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "danish.azam.dyp",
+            "certificate_hash": "042b3a3fc3bb6e761ca3ee0a806d6d7873713841"
+          }
+        },
+        {
+          "client_id": "835583197368-mffb92lcvv1487fuvue2s2s4pae41l6i.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "835583197368-mffb92lcvv1487fuvue2s2s4pae41l6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkOCESOT_8milHa5xdCSfeEkJ9jjhC5oc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835583197368-mffb92lcvv1487fuvue2s2s4pae41l6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background"
+    tools:context="danish.azam.dyp.AFactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:background="@drawable/dyphead"
+            android:layout_height="170sp" />
+
+        <TextView
+            android:id="@+id/Engineering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginTop="30sp"
+            android:text="Engineering" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/FEE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5sp"
+                android:layout_marginLeft="5sp"
+                android:textColor="@color/white"
+                android:tag="Engineering FE"
+                android:onClick="finalmethod"
+                android:background="@drawable/buttunbg"
+                android:text="FE" />
+
+            <Button
+                android:id="@+id/DSEE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:tag="Engineering DSE"
+                android:background="@drawable/buttunbg"
+              android:layout_marginRight="5sp"
+                android:onClick="finalmethod"
+                android:layout_marginLeft="5sp"
+                android:layout_weight="1"
+                android:text="DSE" />
+
+            <Button
+                android:id="@+id/MEE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttunbg"
+              android:layout_marginLeft="5sp"
+                android:tag="Engineering ME"
+                android:layout_marginRight="5sp"
+                android:textColor="@color/white"
+                android:onClick="finalmethod"
+                android:layout_weight="1"
+                android:text="ME" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Diploma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text="Diploma" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/FED"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5sp"
+                android:layout_marginLeft="5sp"
+                android:tag="Diploma FE"
+                android:textColor="@color/white"
+                android:onClick="finalmethod"
+                android:background="@drawable/buttunbg"
+                android:text="FE" />
+
+            <Button
+                android:id="@+id/DSED"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:onClick="finalmethod"
+                android:background="@drawable/buttunbg"
+                android:layout_marginRight="5sp"
+                android:tag="Diploma DSE"
+                android:layout_marginLeft="5sp"
+                android:layout_weight="1"
+                android:text="DSE" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Management"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Management"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginTop="10sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/MBA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5sp"
+                android:layout_marginLeft="5sp"
+                android:textColor="@color/white"
+                android:onClick="finalmethod"
+                android:tag="Management MBA"
+                android:background="@drawable/buttunbg"
+                android:text="MBA" />
+
+            <Button
+                android:id="@+id/MCA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:onClick="finalmethod"
+                android:background="@drawable/buttunbg"
+                android:layout_marginRight="5sp"
+                android:layout_marginLeft="5sp"
+                android:tag="Management MCA"
+                android:layout_weight="1"
+                android:text="MCA" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Architecture"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:gravity="center"
+
+                android:layout_marginRight="25sp"
+
+                android:layout_marginTop="10sp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:text="Agriculture"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginRight="5sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="10sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/FYarchitecture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5sp"
+                android:onClick="finalmethod"
+                android:tag="Architecture FY"
+                android:layout_marginLeft="5sp"
+                android:textColor="@color/white"
+                android:background="@drawable/buttunbg"
+                android:text="F Y" />
+
+            <Button
+                android:id="@+id/FYagriculture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@drawable/buttunbg"
+                android:onClick="finalmethod"
+                android:layout_marginRight="5sp"
+                android:tag="Agriculture FY"
+                android:layout_marginLeft="5sp"
+                android:layout_weight="1"
+                android:text="F Y" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:background="@drawable/background"
+        android:text="Admission Enquiry Form"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120sp"
+        android:text="2018-19"
+        />
+
+</RelativeLayout>
